@@ -851,8 +851,7 @@
             onMouseDown: this._onSliderMouseDown,
             onClick: this._onSliderClick
           },
-          bars,
-          handles
+          bars.concat(handles)
         )
       );
     }
